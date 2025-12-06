@@ -16,7 +16,7 @@ namespace PROYECTO_2_CLIENTE
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FRM_CLIENTE());
         }
     }
 }

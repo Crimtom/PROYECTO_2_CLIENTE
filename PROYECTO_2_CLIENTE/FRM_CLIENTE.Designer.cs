@@ -44,6 +44,7 @@
             this.BT_ENVIAR.TabIndex = 0;
             this.BT_ENVIAR.Text = "Enviar";
             this.BT_ENVIAR.UseVisualStyleBackColor = true;
+            this.BT_ENVIAR.Click += new System.EventHandler(this.BT_ENVIAR_Click);
             // 
             // BT_DESCONECTAR
             // 
@@ -54,6 +55,7 @@
             this.BT_DESCONECTAR.TabIndex = 1;
             this.BT_DESCONECTAR.Text = "Desconectar";
             this.BT_DESCONECTAR.UseVisualStyleBackColor = true;
+            this.BT_DESCONECTAR.Click += new System.EventHandler(this.BT_DESCONECTAR_Click);
             // 
             // BT_CONECTAR
             // 
@@ -62,8 +64,9 @@
             this.BT_CONECTAR.Name = "BT_CONECTAR";
             this.BT_CONECTAR.Size = new System.Drawing.Size(125, 42);
             this.BT_CONECTAR.TabIndex = 2;
-            this.BT_CONECTAR.Text = "Enviar";
+            this.BT_CONECTAR.Text = "Conectar";
             this.BT_CONECTAR.UseVisualStyleBackColor = true;
+            this.BT_CONECTAR.Click += new System.EventHandler(this.BT_CONECTAR_Click);
             // 
             // TXT_CLIENTE
             // 
@@ -72,6 +75,7 @@
             this.TXT_CLIENTE.Name = "TXT_CLIENTE";
             this.TXT_CLIENTE.Size = new System.Drawing.Size(531, 31);
             this.TXT_CLIENTE.TabIndex = 3;
+            this.TXT_CLIENTE.TextChanged += new System.EventHandler(this.TXT_CLIENTE_TextChanged);
             // 
             // TXT_INFO
             // 
@@ -96,6 +100,7 @@
             this.Name = "FRM_CLIENTE";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FRM_CLIENTE";
+            this.Load += new System.EventHandler(this.FRM_CLIENTE_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
